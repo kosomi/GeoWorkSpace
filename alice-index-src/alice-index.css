@@ -1,0 +1,117 @@
+/* General */
+
+body {
+	font-family: 'Amatica SC';
+	background-color: orange;
+	font-size: 20px;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+/* In the form-box */
+.work {
+  color: white;
+  font-style: bold;
+}
+
+.work, .space {
+	font-size: 5em;
+}
+
+footer, .primary-text {
+	font-size: 16px;
+}
+
+.secondary-text {
+	font-family: 'Courgette';
+	font-size: 22px;
+}
+
+
+div #form-box {
+	border-bottom: 3px solid white;
+}
+
+#form-box:before,
+#form-box:after {
+  content: "";
+  display: table;
+}
+
+#form-box:after {
+  clear: both;
+}
+
+#form-box {
+  clear: both;
+  *zoom: 1;
+}
+
+section {
+  float: left;
+  width: 60%;
+  text-align: center;
+}
+
+aside {
+
+  float: right;
+  margin-right: 3%;
+  width: 33%;
+  margin-top: 40px;
+  text-align: center;
+  
+}
+
+/* In the result-box */
+
+#results:before,
+#results:after {
+  content: "";
+  display: table;
+}
+#results:after {
+  clear: both;
+}
+#results {
+  clear: both;
+  *zoom: 1;
+}
+
+#results section {
+  float: left;
+  margin-left: 150px;
+  padding-left: 15px;
+  margin-top: 40px;
+  width: 45%;
+  text-align: left;
+}
+
+#results aside {
+  float: right;
+  width: 40%;
+  margin-right: 0;
+  text-align: left; 
+}
+
+#businessname {
+  font-family: 'Comfortaa';
+  font-size: 1.15em;
+  color: white;
+  font-style: bold;
+}
+
+#address {
+  font-family: 'Farsan';
+}
+
+#direction {
+  width: 30px;
+  height: 30px;
+}
+
+#image {
+  margin-right: 20px;
+}

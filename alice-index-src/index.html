@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>the WorkSpace</title>
+		<meta content="text/html" charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Amatica+SC" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Farsan:400" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Courgette:400" rel="stylesheet">
+		
+		<link rel="stylesheet" type="text/css" href="alice-index.css">
+		
+	</head>
+
+	<body>
+
+		<div id="container">
+				<div id = "form-box">
+					<section>
+						<p><span class="work">WORK</span> <span class="space">SPACE</span>
+					 	<span class = "primary-text">quick places to get your work done!</span></p>	
+					</section>
+
+					<aside>
+						<p class = "secondary-text">Tell us where you're at!</p>
+						
+						<form action = " ">
+							
+							<input id = "zipcode"
+								type = "text"
+								value = "94102"
+								size = 7
+								placeholder = "zip code" 
+								maxlength= 5>
+							
+							<input id = "button" 
+							  type = "button"
+							  value = "Find me a place!"
+							  onClick = "search()"> 
+
+						</form>
+					</aside>
+				</div>
+
+				<div id = "result-box">
+					<div id = "results">
+					</div>
+				</div>
+			
+		<script type="text/javascript" src="alice-app.js"></script>
+	</body>
+</html>
