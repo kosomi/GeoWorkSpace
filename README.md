@@ -6,3 +6,5 @@
 
 Side note: I, first, named this app 'Alice'. Alice is the name that I want to give my daughter if I ever have one. Since this is my first web application I ever made, it does hold special place in me. However as the application progressed, I changed to 'workspace' to fit with the application function.
 
+<img src='https://github.com/kosomi/GeoWorkSpace/blob/master/fix_Screenshot.png'>
+
